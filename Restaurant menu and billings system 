@@ -1,0 +1,29 @@
+Restaurant Menu & Billing System
+
+Name: Ayesha
+Institute: THE SUFI INSTITUTE (LUARI SHARIF)
+Instructor Name: Miss Chandni Talpur
+Project: Class Activity Project
+Created: A Restaurant Menu & Billing System in C++
+Email: aishalangah094@gmail.com
+LinkedIn: https://www.linkedin.com/in/aisha-langah-b58a813b0
+
+About the Project
+
+Restaurant Menu & Billing System is a simple C++ program that displays a restaurant menu with prices, allows customers to select food items and quantities, and automatically calculates the total bill.
+
+Technology Used
+
+- C++
+- Conditional Statements
+- Switch Statement
+- Variables
+- Input/Output
+
+Features
+
+- Restaurant menu card
+- Food item selection
+- Quantity selection
+- Automatic bill calculation
+- Simple and user-friendly interface
