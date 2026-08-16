@@ -1,0 +1,76 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int choice, quantity;
+    double total = 0;
+
+    cout << "====================================\n";
+    cout << "     RESTAURANT MENU & BILLING\n";
+    cout << "====================================\n";
+
+    cout << "1. Burger       - Rs. 300\n";
+    cout << "2. Pizza        - Rs. 800\n";
+    cout << "3. Biryani      - Rs. 250\n";
+    cout << "4. Sandwich     - Rs. 200\n";
+    cout << "5. Cold Drink   - Rs. 100\n";
+    cout << "6. Exit\n";
+
+    cout << "\nEnter your choice: ";
+    cin >> choice;
+
+    switch (choice) {
+        case 1:
+            cout << "Enter quantity: ";
+            cin >> quantity;
+            total = 300 * quantity;
+            cout << "You selected Burger.\n";
+            break;
+
+        case 2:
+            cout << "Enter quantity: ";
+            cin >> quantity;
+            total = 800 * quantity;
+            cout << "You selected Pizza.\n";
+            break;
+
+        case 3:
+            cout << "Enter quantity: ";
+            cin >> quantity;
+            total = 250 * quantity;
+            cout << "You selected Biryani.\n";
+            break;
+
+        case 4:
+            cout << "Enter quantity: ";
+            cin >> quantity;
+            total = 200 * quantity;
+            cout << "You selected Sandwich.\n";
+            break;
+
+        case 5:
+            cout << "Enter quantity: ";
+            cin >> quantity;
+            total = 100 * quantity;
+            cout << "You selected Cold Drink.\n";
+            break;
+
+        case 6:
+            cout << "Thank you for visiting!\n";
+            return 0;
+
+        default:
+            cout << "Invalid choice!\n";
+            return 0;
+    }
+
+    cout << "\n====================================\n";
+    cout << "           BILL SUMMARY\n";
+    cout << "====================================\n";
+    cout << "Quantity: " << quantity << endl;
+    cout << "Total Bill: Rs. " << total << endl;
+    cout << "====================================\n";
+    cout << "Thank you for your order!\n";
+
+    return 0;
+}
